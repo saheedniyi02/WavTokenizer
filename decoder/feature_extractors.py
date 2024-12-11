@@ -4,7 +4,7 @@ import torch
 import torchaudio
 from torch import nn
 import math
-from decoder.modules import safe_log
+from .modules import safe_log
 from encoder.modules import SEANetEncoder, SEANetDecoder
 from encoder import EncodecModel
 from encoder.quantization import ResidualVectorQuantizer
